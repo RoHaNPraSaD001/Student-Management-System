@@ -1,0 +1,10 @@
+package com.rohan.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.rohan.entity.Student;
+
+
+public interface StudentRepository extends JpaRepository<Student, Long> {
+
+}
